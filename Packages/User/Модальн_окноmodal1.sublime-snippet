@@ -1,0 +1,28 @@
+<snippet>
+	<content><![CDATA[
+
+<button class="btn btn-success" data-toggle="modal" data-target="#modal-1">Открыть модальное окно</button>
+
+<div class="modal fade" id="modal-1">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Название окна</h4>
+      </div>
+      <div class="modal-body">
+        <p>Это модальное окно</p>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-danger" data-dismiss="modal">Отмена</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>modal1</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

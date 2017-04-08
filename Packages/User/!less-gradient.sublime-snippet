@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+.gradient (@line; @grad1; @grad2) {	
+	@{bac}: -webkit-linear-gradient(@line, @grad1, @grad2);
+	@{bac}: -moz-linear-gradient(@line, @grad1, @grad2);
+	@{bac}: -o-linear-gradient(@line, @grad1, @grad2);
+	@{bac}: linear-gradient(@line, @grad1, @grad2);
+}
+}]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>!less-gradient</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

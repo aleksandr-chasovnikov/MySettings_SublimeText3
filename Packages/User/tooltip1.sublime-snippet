@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+
+  <a href="" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="Простая подсказка">
+    <i class="fa fa-spinner fa-spin"></i>
+  </a>
+  
+  <script>
+    $(function() {
+      $('[data-toggle="tooltip"]').tooltip();
+    });
+  </script>
+</body>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tooltip1</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

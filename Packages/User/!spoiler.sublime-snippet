@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+
+<div class="col-md-6">
+  <a href="#spoiler-1" data-toggle="collapse" class="btn btn-primary">Открыть спойлер</a>
+  <div class="collapse" id="spoiler-1">
+    <div class="well">
+      <p>Параграф с текстом</p>
+    </div>
+  </div>
+</div>
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>spoiler1</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,28 @@
+<snippet>
+	<content><![CDATA[
+<div role="tabpanel">
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active">
+      <a href="#home" aria-controls="home" role="tab" data-toggle="tab">home</a>
+    </li>
+    <li role="presentation">
+      <a href="#tab" aria-controls="tab" role="tab" data-toggle="tab">tab</a>
+    </li>
+    <li role="presentation">
+      <a href="#tab2" aria-controls="tab2" role="tab" data-toggle="tab">tab2</a>
+    </li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="home">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, atque.</div>
+    <div role="tabpanel" class="tab-pane" id="tab">Lorem ipsum dolor sit.</div>
+    <div role="tabpanel" class="tab-pane" id="tab2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis repellendus reprehenderit, doloribus tempora expedita, fugiat ipsum deserunt magni itaque saepe.</div>
+  </div>
+</div>]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>!my-bs3-tabs</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

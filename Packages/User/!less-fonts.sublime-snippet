@@ -1,0 +1,27 @@
+<snippet>
+	<content><![CDATA[
+.font(@fontName; @urlName: @fontName; @weight: normal; @style: normal) {
+  font-family: '@{fontName}';
+  src: url('/fonts/@{urlName}/@{urlName}.eot');
+  src: url('/fonts/@{urlName}/@{urlName}.eot#iefix') format('embedded-opentype'),
+  url('/fonts/@{urlName}/@{urlName}.woff') format('woff'),
+    url('/fonts/@{urlName}/@{urlName}.ttf') format('truetype'),
+    url('/fonts/@{urlName}/@{urlName}.svg') format('svg');
+    font-weight: @weight;
+    font-style: @style;
+}
+
+@fontRegular: 'OpenSans';
+@fontBold: '@{fontRegular}-Bold';
+
+@font-face {
+  .font(@fontRegular);
+}
+@font-face {
+  .font(@fontRegular; @fontBold; bold);
+}]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>!less-fonts</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

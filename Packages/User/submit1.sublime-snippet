@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+
+  <button class="btn btn-primary" type="submit">
+    <i class="fa fa-sign-in"></i>Войти
+  </button>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>submit1</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

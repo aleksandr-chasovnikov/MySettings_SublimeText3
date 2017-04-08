@@ -1,0 +1,31 @@
+<snippet>
+	<content><![CDATA[
+
+<div class="col-lg-4">
+	<div class="login-form">
+		<form action="#" method="post" enctype="multypart/form-date">
+
+			<p></p>
+			<input type="text" name="name" placeholder="Имя" value="">
+			
+
+			<p></p>
+			<input type="text" name="name" placeholder="Имя" value="">
+			
+
+			<p></p>
+			<input type="text" name="name" placeholder="Имя" value="">
+			
+
+			<p></p>
+			<input type="text" name="name" placeholder="Имя" value="">
+			
+		</form>
+	</div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>form1</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

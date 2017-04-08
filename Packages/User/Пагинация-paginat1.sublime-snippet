@@ -1,0 +1,47 @@
+<snippet>
+	<content><![CDATA[
+
+
+<nav>
+    <ul class="pager">
+      <li class="previous"><a href="#">&larr; Предыдущая страницы</a></li>
+      <li class="next"><a href="#">Следующая страница &rarr;</a></li>
+  </ul>
+</nav>
+
+<div class="container center">
+<nav class="text-center">
+  <ul class="pagination pagination-lg">
+    <li>
+      <a href="">
+        <i class="glyphicon glyphicon-fast-backward"></i>
+      </a>
+    </li>
+    <li>
+      <a href="">
+        <i class="glyphicon glyphicon-backward"></i>
+      </a>
+    </li>
+    <li><a href="">1</a></li>
+    <li><a href="">2</a></li>
+    <li><a href="">3</a></li>
+    <li><a href="">4</a></li>
+    <li><a href="">5</a></li>
+    <li>
+      <a href="">
+        <i class="glyphicon glyphicon-forward"></i>
+      </a>
+    </li>
+    <li>
+      <a href="">
+        <i class="glyphicon glyphicon-fast-forward"></i>
+      </a>
+    </li>
+  </ul>
+</nav>
+</div><!-- /.container -->]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>paginat1</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

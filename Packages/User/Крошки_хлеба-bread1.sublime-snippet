@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+<div class="container">
+  <ol class="breadcrumb">
+    <li>
+      <a href="">
+        <i class="fa fa-home"></i>
+      </a>
+    </li>
+    <li><a href="">Блог</a></li>
+    <li><a href="">Категория</a></li>
+    <li><a href="">Название поста</a></li>
+  </ol>
+</div>
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bread1</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+
+              <ul class="list-lang">
+                <li class="list-lang__item active">
+                  <a href="#" class="list-lang__link">Рус</a>
+                </li>
+                <li class="list-lang__item">
+                  <a href="#" class="list-lang__link">Англ</a>
+                </li>
+              </ul>]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>!lang</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

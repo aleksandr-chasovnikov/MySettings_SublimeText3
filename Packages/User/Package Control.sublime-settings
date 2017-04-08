@@ -1,0 +1,29 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Bootstrap 3 Snippets",
+		"Color Highlighter",
+		"ColorPick",
+		"ColorPicker",
+		"Emmet",
+		"Git",
+		"Github Tools",
+		"LESS",
+		"Package Control",
+		"PHP-Twig",
+		"Placeholders",
+		"SideBarEnhancements",
+		"Sublime Bookmarks",
+		"SublimeLinter",
+		"SublimeLinter-csslint",
+		"SublimeLinter-html-tidy",
+		"SublimeLinter-jsl",
+		"SublimeLinter-php",
+		"Terminal",
+		"Twig"
+	]
+}

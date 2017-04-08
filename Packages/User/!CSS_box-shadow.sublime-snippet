@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+
+    -webkit-box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5); 
+    -moz-box-shadow:    2px 2px 4px 2px rgba(0, 0, 0, 0.5); 
+    box-shadow:         2px 2px 4px 2px rgba(0, 0, 0, 0.5); 
+    /*box-shadow: inset(тень внутри) <сдвиг по x> <сдвиг по y> <радиус размытия> <растяжение> <цвет>*/
+    ]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>!CSS_box-shadow</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
