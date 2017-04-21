@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+
+            <div class="sidebr-item">
+              <h5 class="sidebar-title">Цена</h5>
+              <div class="sl-slider">
+                <label for="amount">от</label>
+                <input id="amount" type="text"/>
+                <label for="amount_1">до</label>
+                <input id="amount_1" type="text"/>
+                <label for="amout_1">руб.</label>
+              </div>
+              <div id="slider-range"></div>
+            </div>]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>MYrange-slider-HTML</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

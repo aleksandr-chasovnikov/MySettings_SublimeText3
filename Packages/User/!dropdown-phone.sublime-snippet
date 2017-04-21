@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+
+                <div class="dropdown h-phone">
+                  <a data-toggle="dropdown" href="#">
+                    <small>Бесплатно по всей России</small>
+                    <span>8 800 123-45-67 <i class="ic-arrow-down"></i></span>
+                  </a>
+                  <ul class="dropdown-menu arrow" role="menu" aria-labelledby="dLabel">
+                    <li><a href="#">Заказать обратный звонок</a></li>
+                    <li><a href="#">Форма обратной связи</a></li>
+                  </ul>
+                </div>]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>MYdropdown-phone</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

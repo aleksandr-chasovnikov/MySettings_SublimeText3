@@ -1,40 +1,39 @@
-[![Build Status](https://travis-ci.org/dz0ny/LiveReload-sublimetext2.png?branch=devel)](https://travis-ci.org/dz0ny/LiveReload-sublimetext2)
-[![Fattrme](http://api.flattr.com/button/flattr-badge-large.png)](http://flattr.com/thing/1492893/dz0nyLiveReload-sublimetext2-on-GitHub)
-[![Gittip](http://badgr.co/gittip/dz0ny.png)](https://www.gittip.com/dz0ny/)
-
-
-
 # LiveReload for Sublime Text 3
 
-A web browser page reloading plugin for the [Sublime Text 3](http://sublimetext.com "Sublime Text 3") editor. 
+A web browser page reloading plugin for the [Sublime Text 3](http://sublimetext.com "Sublime Text 3") editor.
 
 ## Installing
 
-Open Terminal and
+With [Package Control](http://wbond.net/sublime_packages/package_control):
 
-### Linux users
+1. Run “Package Control: Install Package” command, find and install `LiveReload` plugin.
+2. Restart ST editor (if required)
+
+### Manual install, Linux users
 
 ```
 cd ~/.config/sublime-text-3/Packages
 rm -rf LiveReload
-git clone -b devel https://github.com/dz0ny/LiveReload-sublimetext2.git LiveReload
+git clone https://github.com/alepez/LiveReload-sublimetext3 LiveReload
 ```
 
-### OSX users
+### Manual install, OSX users
 
 ```
 cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
 rm -rf LiveReload
-git clone -b devel https://github.com/dz0ny/LiveReload-sublimetext2.git LiveReload
+git clone https://github.com/alepez/LiveReload-sublimetext3 LiveReload
 ```
 
 # Using
 
 Enable desired plug-ins via Command Palette (Ctrl+Shift+P) add livereload.js to you html document.
 
-```<script>document.write('<script src="http://' + (location.host || '${1:localhost}').split(':')[0] + ':${2:35729}/livereload.js?snipver=1"></' + 'script>')</script>```
+```
+<script>document.write('<script src="http://' + (location.host || '${1:localhost}').split(':')[0] + ':${2:35729}/livereload.js?snipver=1"></' + 'script>')</script>
+```
 
-You can also use one of the extensions listed here http://feedback.livereload.com/knowledgebase/articles/86242-how-do-i-install-and-use-the-browser-extensions-
+You can also use one of the extensions listed here http://livereload.com/extensions/
 
 ## Available plug-ins:
 
@@ -52,3 +51,7 @@ You can also use one of the extensions listed here http://feedback.livereload.co
 # Plug-in api
 
 https://livereload-for-sublime-text.readthedocs.org/en/latest/
+
+# Thanks
+
+The original plugin was written by [Janez Troha](https://github.com/dz0ny)

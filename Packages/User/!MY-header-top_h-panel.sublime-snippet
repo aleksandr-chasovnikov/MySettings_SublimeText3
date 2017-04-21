@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+
+            <div class="h-panel clearfix">
+              <nav class="h-nav h-nav-tabs">
+                <a href="#" class="active">Интернет-магазин</a>
+                <a href="#">О компании</a>
+              </nav>
+              <nav class="h-nav h-nav-center">
+                <a href="#">Акции</a>
+                <a href="#">Дисконтная система</a>
+                <a href="#">Адреса и контакты</a>
+                <a href="#">Доставка и оплата</a>
+              </nav>
+              <nav class="h-nav pull-right">
+                <a href="#"><i class="ic-time"></i> <span class="hidden-xss">Проверить заказ</span></a>
+                <a href="#"><i class="ic-user"></i> <span class="hidden-xss">Личный кабинет</span></a>
+              </nav>
+            </div>]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>MY-header-top_h-panel</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

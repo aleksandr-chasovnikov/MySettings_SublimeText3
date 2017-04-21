@@ -1,0 +1,46 @@
+<snippet>
+	<content><![CDATA[
+
+      <div class="footer__top">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-6 col-xss-12">
+
+              <h4 class="footer__title"><a href="#">корпоративный сайт  &#8250;</a></h4>
+              <nav class="footer__nav">
+                <ul class="list-unstyled">
+                  <li><a href="#">О компании</a></li>
+                  <li><a href="#">Новости и анонсы</a></li>
+                  <li><a href="#">Контакты</a></li>
+                </ul>
+              </nav>
+
+            </div><!-- col-md-3 -->
+            <div class="col-md-3 col-sm-6 col-xs-6 col-xss-12"></div><!-- col-md-3 -->
+            <div class="col-md-3 col-sm-6 col-xs-6 col-xss-12"></div><!-- col-md-3 -->
+            <div class="col-md-3 col-sm-6 col-xs-6 col-xss-12">
+
+              <h4 class="footer__title">Остались вопросы?</h4>
+              <p class="footer__phone">8 800 123-45-67</p>
+              <nav class="footer__nav">
+                <ul class="list-unstyled">
+                  <li><a href="#">Обратный звонок</a></li>
+                  <li><a href="#">Форма обратной связи</a></li>
+                </ul>
+              </nav>
+
+              <h5 class="footer__title mt-lg">Мы в социальных сетях</h5>
+              <div class="social">
+                <a href="#" class="social__link social__link_fb">&nbsp;</a>
+                <a href="#" class="social__link social__link_google">&nbsp;</a>
+              </div>
+
+            </div><!-- col-md-3 -->
+          </div><!-- row -->
+        </div><!-- container -->
+      </div><!-- footer__top -->]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>MY-footer__top</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

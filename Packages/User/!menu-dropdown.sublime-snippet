@@ -1,0 +1,35 @@
+<snippet>
+	<content><![CDATA[
+
+            <ul class="panel-menu-wrap clearfix">
+              <li>
+                <a href="#" class="btn btn-menu"><i class="ic-list"></i>Каталог товаров <i class="ic-arrow-down-white"></i></a>
+                <ul class="panel-menu arrow" style="display: none;">
+                  <li><a href="#">Ортопедия <i class="ic-arrow-right"></i></a></li>
+                  <li class="selected"><!-- Выпадающий список -->
+                    <a href="#">Зуботехнические материалы <i class="ic-arrow-right"></i></a>
+                    <ul>
+                      <li><a href="#">Анестезия <i class="ic-arrow-right"></i></a></li>
+                      <li class="selected">
+                        <a href="#">Воск и восковые ретенции <i class="ic-arrow-right"></i></a>
+                        <ul>
+                          <li><a href="#">Организация рабочего места врача <i class="ic-arrow-right"></i></a></li>
+                          <li><a href="#">Рентгеноборудование <i class="ic-arrow-right"></i></a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#">Реставрация <i class="ic-arrow-right"></i></a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Зуботехническое оборудование <i class="ic-arrow-right"></i></a></li>
+                  <li class="divider"></li>
+                  <li class="sale"><a href="#"><strong>Распродажа</strong></a></li>
+                </ul>
+              </li>
+              <li><span class="sp">Зуботехнические материалы <i class="ic-arrow-down-white"></i></span></li>
+              <li><span class="sp">Воск и восковые ретенции <i class="ic-arrow-down-white"></i></span></li>
+            </ul>]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>MYmenu-dropdown</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

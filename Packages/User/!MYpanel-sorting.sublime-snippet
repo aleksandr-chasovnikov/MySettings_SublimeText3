@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+            <div class="sorting"><!-- Сортировка -->
+              <label for="" class="hidden-xss">Сортировать по</label>
+              <select>
+                <option value="Популярности">Популярности</option>
+                <option value="По рейтингу">рейтингу</option>
+                <option value="По загрузке">загрузке</option>
+                <option value="По дате">дате</option>
+              </select>
+              <div class="btn-group">
+                <buttun type="button" class="btn btn-default active">
+                  <span class="glyphicon glyphicon-th"></span>
+                </buttun>
+                <buttun type="button" class="btn btn-default">
+                  <span class="glyphicon glyphicon-th-list"></span>
+                </buttun>
+              </div>
+            </div><!-- sorting -->]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>MYpanel-sorting</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

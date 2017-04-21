@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+	.social a 
+	display: inline-block
+	vertical-align: middle
+	width: 32px
+	height: 32px
+	background: url(../img/social.png) no-repeat
+
+	.social a + a 
+	margin-left: 6px
+	.social a.social__link_fb 
+	background-position: 0 0
+	.social a.social__link_google 
+	background-position: -32px 0
+	.social a.social__link_tw 
+	background-position: -64px 0
+	.social a.social__link_vk 
+	background-position: -96px 0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>MY-social-icons-CSS</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

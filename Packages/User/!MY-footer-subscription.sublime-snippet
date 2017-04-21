@@ -1,0 +1,27 @@
+<snippet>
+	<content><![CDATA[
+
+      <div class="subscription">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7 col-sm-6">
+
+              <h4 class="subscription__title clearfix"><i class="gift"></i> Подпишитесь на новинки, скидки, предложения!</h4>
+
+            </div><!-- col-md-7 col-sm-6 -->
+            <div class="col-md-5 col-sm-6">
+
+              <form action="#" class="clearfix">
+                <input type="text" placeholder="Адрес электронной почты">
+                <input type="submit" value="Подписаться">
+              </form>
+
+            </div><!-- col-md-7 col-sm-6 -->
+          </div><!-- row -->
+        </div><!-- container -->
+      </div><!-- subscription -->]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>MY-footer-subscription</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

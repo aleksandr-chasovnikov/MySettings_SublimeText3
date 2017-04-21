@@ -1,0 +1,49 @@
+<snippet>
+	<content><![CDATA[
+  
+  <!-- ACCORDION -->
+  <div id="accordion" class="panel-group">
+    <div class="panel panel-success">
+
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="clearfix" href="#collapse-1" data-parent="#accordion" data-toggle="collapse">
+            <span class="float-left">Аккордион</span>
+          </a>
+        </h4>
+      </div><!-- panel-heading -->
+
+      <div id="collapse-1" class="panel-collapse collapse">
+        <div class="panel-body">
+          <div class="wrapper">
+            <h2>Lorem ipsum dolor.</h2>
+            <p>Lorem ipsum dolor sit amet</p>
+          </div>
+        </div>
+      </div><!-- collapse -->
+
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="clearfix" href="#collapse-1" data-parent="#accordion" data-toggle="collapse">
+            <span class="float-left">Аккордион</span>
+          </a>
+        </h4>
+      </div><!-- panel-heading -->
+
+      <div id="collapse-1" class="panel-collapse collapse">
+        <div class="panel-body">
+          <div class="wrapper">
+            <h2>Lorem ipsum dolor.</h2>
+            <p>Lorem ipsum dolor sit amet</p>
+          </div>
+        </div>
+      </div><!-- collapse -->
+
+    </div><!-- panel -->
+  </div><!-- panel-group -->
+  <!-- ACCORDION END -->]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>!accord_bs3_HTML</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

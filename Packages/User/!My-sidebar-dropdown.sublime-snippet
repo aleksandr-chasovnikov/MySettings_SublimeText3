@@ -1,0 +1,32 @@
+<snippet>
+	<content><![CDATA[
+
+          <!-- SIDEBAR -->
+          <div data-sidebar="true" data-force-toggle="true" data-locked="true"
+          data-hammer-scrollbar="true" class="sidebar-trigger sidebar-force-open sidebar-locked">
+
+          <a class="sidebar-toggle" href="#">
+            <span class="sr-only">Sidebar toggle</span>
+            <i class="fa fa-sidebar-toggle"></i>
+          </a>
+
+          <div class="sidebar-wrapper sidebar-default sidebar-open-init">
+
+            <div class="sidebr-item">
+              <h5 class="sidebar-title">Категории</h5>
+              <ul class="sidebar-list">
+                <li><a href="#">Керамика</a></li>
+                <li><a href="#">Керамика</a></li>
+              </ul>
+            </div>
+
+            MYrange-slider-HTML
+
+          </div><!-- sidebar-wrapper -->
+        </div><!-- sidebar-trigger -->
+        <!-- SIDEBAR END-->]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>My-sidebar-dropdown</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

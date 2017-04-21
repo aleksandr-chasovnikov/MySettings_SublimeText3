@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+//Прижать футер к низу, а хэдер к верху
+
+$(function(){
+
+var hf = function(){
+	var h_header = $('header').height();
+	var h_footer = $('footer').height();
+	$('.content').css({
+		'paddingTop': h_header,
+		'paddingBottom': h_footer
+	});
+}
+
+$(window).bind('load resize', hf);
+
+});
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>MY-UP_header-DOWN_footer</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
